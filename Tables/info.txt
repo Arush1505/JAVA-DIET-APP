@@ -1,0 +1,2 @@
+This file contains the SQL table quries for stroring information of students.
+create table info(user_name varchar(20) , pass_word varchar(20), hostel_name varchar(50), activity varchar(20));
