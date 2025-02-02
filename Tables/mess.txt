@@ -1,0 +1,28 @@
+This file contains the SQL queries for the table creation
+
+Edit them according to your college.
+
+CREATE TABLE Meals (id INT PRIMARY KEY AUTO_INCREMENT,day VARCHAR(10),meal_type ENUM('Breakfast', 'Lunch', 'Snacks', 'Dinner'),food_name VARCHAR(255),protein DECIMAL(5,2));
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Monday', 'Breakfast', 'Boiled Egg', 6.0), ('Monday', 'Breakfast', 'Millet Dosa', 4.2), ('Monday', 'Breakfast', 'Chapathi', 4.5), ('Monday', 'Breakfast', 'Idly Podi', 3.0), ('Monday', 'Breakfast', 'Sambar', 3.0), ('Monday', 'Lunch', 'Rajma Masala', 8.0), ('Monday', 'Lunch', 'Panchratna Dal', 7.5), ('Monday', 'Lunch', 'Mochai', 5.0), ('Monday', 'Lunch', 'Chapathi', 4.5), ('Monday', 'Lunch', 'Jeera Pulao', 4.0), ('Monday', 'Dinner', 'Fish Gravy', 25.0), ('Monday', 'Dinner', 'Mattar Paneer Masala', 8.0), ('Monday', 'Dinner', 'Hara Moong Dal', 7.0), ('Monday', 'Dinner', 'Madras Paratha', 4.0), ('Monday', 'Dinner', 'Steamed Rice', 2.5);
+
+
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Tuesday', 'Breakfast', 'Dal Aloo Masala', 7.5), ('Tuesday', 'Breakfast', 'Semia Veg Kichadi', 4.0), ('Tuesday', 'Breakfast', 'Poori', 2.0), ('Tuesday', 'Breakfast', 'Milk', 3.4), ('Tuesday', 'Breakfast', 'Bread', 3.5), ('Tuesday', 'Lunch', 'Meal Maker Curry', 8.0), ('Tuesday', 'Lunch', 'Dal Fry', 7.5),('Tuesday', 'Lunch', 'Urulai Peas', 5.0), ('Tuesday', 'Lunch', 'Millet Chapathi', 4.5), ('Tuesday', 'Lunch', 'Bahara Pulao', 4.5), ('Tuesday', 'Dinner', 'Mutton Gravy', 25.0),('Tuesday', 'Dinner', 'Black Chenna', 7.0), ('Tuesday', 'Dinner', 'Dal Fry', 7.5), ('Tuesday', 'Dinner', 'Veg Chilly Gobi', 5.0), ('Tuesday', 'Dinner', 'Millet Dosa', 4.2);
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Wednesday', 'Breakfast', 'Masala Omelet', 7.0), ('Wednesday', 'Breakfast', 'Millet Idly', 4.0), ('Wednesday', 'Breakfast', 'Idly Podi', 3.0), ('Wednesday', 'Breakfast', 'Poha', 3.5), ('Wednesday', 'Breakfast', 'Sambar', 3.0),('Wednesday', 'Lunch', 'Muttar Masala', 8.0), ('Wednesday', 'Lunch', 'Chapathi', 4.5), ('Wednesday', 'Lunch', 'Bhindi Aloo', 4.0), ('Wednesday', 'Lunch', 'Veg Pulao', 4.5), ('Wednesday', 'Lunch', 'Masala Sambar', 3.0),('Wednesday', 'Dinner', 'Butter Chicken Masala', 25.0), ('Wednesday', 'Dinner', 'Paneer Butter Masala', 8.0), ('Wednesday', 'Dinner', 'Dal Tadka', 7.5), ('Wednesday', 'Dinner', 'Chapathi', 4.5), ('Wednesday', 'Dinner', 'Steamed Rice', 2.5);
+
+
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Thursday', 'Breakfast', 'Millet Idiyappam', 4.2), ('Thursday', 'Breakfast', 'Chapathi', 4.5), ('Thursday', 'Breakfast', 'Channa Masala', 7.5), ('Thursday', 'Breakfast', 'Sambar', 3.0), ('Thursday', 'Breakfast', 'White Khurma', 2.0), ('Thursday', 'Lunch', 'Aloo Gobi', 4.0), ('Thursday', 'Lunch', 'Chapathi', 4.5), ('Thursday', 'Lunch', 'Punjabi Dal Fry', 7.5), ('Thursday', 'Lunch', 'Onion Pulao', 4.5), ('Thursday', 'Lunch', 'Kadi Pakoda', 4.0),('Thursday', 'Dinner', 'Mutton Gravy', 25.0), ('Thursday', 'Dinner', 'Chole Masala', 7.0), ('Thursday', 'Dinner', 'Tomato Dal', 3.0), ('Thursday', 'Dinner', 'Idly', 3.0), ('Thursday', 'Dinner', 'Chapathi', 4.5);
+
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Friday', 'Breakfast', 'Rajma Masala', 8.0), ('Friday', 'Breakfast', 'Chapathi', 4.5), ('Friday', 'Breakfast', 'Dosa', 4.2), ('Friday', 'Breakfast', 'Idly Podi', 3.0), ('Friday', 'Breakfast', 'Sambar', 3.0),('Friday', 'Lunch', 'Dal Tadka', 7.5), ('Friday', 'Lunch', 'Veg Biryani', 4.5), ('Friday', 'Lunch', 'Mix Raita', 3.0), ('Friday', 'Lunch', 'Steamed Rice', 2.5), ('Friday', 'Lunch', 'Bisibelabath', 5.0),('Friday', 'Dinner', 'Chicken Gravy', 25.0), ('Friday', 'Dinner', 'Veg Manchurian', 5.0), ('Friday', 'Dinner', 'Dal Maharani', 7.5), ('Friday', 'Dinner', 'Veg Fried Rice', 4.0), ('Friday', 'Dinner', 'Millet Chapathi', 4.5);
+
+
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Saturday', 'Breakfast', 'Millet Pongal', 4.0), ('Saturday', 'Breakfast', 'Chapathi', 4.5), ('Saturday', 'Breakfast', 'Vada', 5.0), ('Saturday', 'Breakfast', 'Veg Khurma', 3.5), ('Saturday', 'Breakfast', 'Sambar', 3.0),('Saturday', 'Lunch', 'White Peas Curry', 7.0), ('Saturday', 'Lunch', 'Poori', 2.0), ('Saturday', 'Lunch', 'Dal Fry', 7.5), ('Saturday', 'Lunch', 'Steamed Rice', 2.5), ('Saturday', 'Lunch', 'Kootu (Cabbage)', 4.0),('Saturday', 'Dinner', 'Chicken Gravy', 25.0), ('Saturday', 'Dinner', 'Veg Jhal Pyaza', 4.0), ('Saturday', 'Dinner', 'Potato Fry', 4.0), ('Saturday', 'Dinner', 'Bagara Dal', 7.5), ('Saturday', 'Dinner', 'Steamed Rice', 2.5);
+
+
+
+INSERT INTO Meals (day, meal_type, food_name, protein) VALUES ('Sunday', 'Breakfast', 'Chole Bhature', 8.0), ('Sunday', 'Breakfast', 'Chenna Masala', 7.5), ('Sunday', 'Breakfast', 'Samba Rava Upma', 4.0), ('Sunday', 'Breakfast', 'Coconut Chutney', 1.5), ('Sunday', 'Breakfast', 'Milk', 3.4),('Sunday', 'Lunch', 'Chicken Gravy', 25.0), ('Sunday', 'Lunch', 'Panneer Butter Masala', 8.0), ('Sunday', 'Lunch', 'Dal Dhadka', 7.5), ('Sunday', 'Lunch', 'Mint Pulao', 4.5), ('Sunday', 'Lunch', 'Mixed Veg Poriyal', 3.0),('Sunday', 'Dinner', 'Chicken Gravy', 25.0), ('Sunday', 'Dinner', 'Aloo Paratha', 4.0), ('Sunday', 'Dinner', 'Hara Moong Dal Tadka', 7.0), ('Sunday', 'Dinner', 'Steamed Rice', 2.5), ('Sunday', 'Dinner', 'Kathamba Sambar', 3.0);
