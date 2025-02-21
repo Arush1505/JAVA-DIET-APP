@@ -1,4 +1,6 @@
-Team Members - Arush Jauhari (https://github.com/Arush1505/) , Tanay Burnwal(https://github.com/tanayburnwal) 
+Team Members :
+Arush Jauhari (https://github.com/Arush1505/) 
+Tanay Burnwal(https://github.com/tanayburnwal) 
 
 # JAVA-DIET-APP
 Hey everyone , WE build this app for the hostlers who face difficulty to maintain a healthy diet while eating mess food.
